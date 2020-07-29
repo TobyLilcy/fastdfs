@@ -1,0 +1,8 @@
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image: # ËõÂÔÍ¼
+    width: 60
+    height: 60
+  tracker-list: # trackerµØÖ·
+    - 10.0.200.53:22122
