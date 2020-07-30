@@ -25,6 +25,7 @@ public class FastdfsApplicationTests {
 
 	@Test
 	public void contextLoads() throws FileNotFoundException {
+
 		File file = new File("C:/Users/Administrator/Pictures/表情图/1.gif");
 		System.out.println(file.length());
 		StorePath storePath = storageClient.uploadFile(new FileInputStream(file), file.length(), "gif", null);
